@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayush Raj - Personal Blog/Profile</title>
     <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         body {
             font-family: 'Arial', sans-serif;
             background-color: #121212;
@@ -20,6 +31,7 @@
             text-align: center;
             color: #ffffff;
             text-decoration: capitalize;
+            
         }
 
         h1 {
@@ -49,6 +61,11 @@
 
         nav a:hover {
             color: #ffca28;
+            transform: scale(0.95);
+
+        }
+        nav a:active {
+            transform: scale(0.8);
         }
 
         section {
@@ -58,9 +75,10 @@
             line-height: 1.6;
             background-color: #212121;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 40px 40px rgba(0, 0, 0, 0.1);
             color: #ffffff;
             margin-bottom: 20px;
+            animation: fadeInUp 1s ease forwards;
         }
 
         h2 {
@@ -83,6 +101,7 @@
             color: #ffffff;
             position: relative;
             margin-top: 50px;
+            animation: fadeInUp 1s ease forwards;
         }
 
         footer p {
@@ -91,6 +110,9 @@
         }
         #about {
             margin-top: 10px;
+        }
+        #contact {
+            box-shadow: 0 100px 10px black;
         }
     </style>
 </head>
