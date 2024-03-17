@@ -1,1 +1,1 @@
-# Heya! this is a profiel made by me for just fun. Im tryign to add multiple animations but sadly github cannot support it. Im feeling extremely sad. (I just need a hug). Otherwise, gr8 have a nice day. NI-
+
